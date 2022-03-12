@@ -1,0 +1,299 @@
+/* code css general */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 28px; 
+}
+
+/* code css detail */
+
+    /*------------------------------- header---------------------------------- */
+
+header {
+    justify-content: space-between;
+    color: white;
+    background-color: #d35649;
+    display: flex;
+}
+
+header .menu1 {
+    padding: 15px 10px 0;
+}
+
+.headerimg1{
+    width: 70px ;
+}
+
+.menu1 a{
+    font-size: 35px;
+    margin: 0 10px;
+    position: relative;
+    top: -5px;
+    text-decoration: none;
+    color: white;
+}
+
+header .menu2 {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    font-size: smaller;
+    margin: 0 0 0 60px;
+    justify-content: space-between ;
+}
+
+.menu1 .option{
+    padding:  0 25px ;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu2 .option{
+    padding: 0 15px;
+}
+    
+
+.menu2 .option img{
+    padding: 0 5px;
+    position: relative;
+    top: 10px
+}
+
+/* --------------------header animation--------------------------- */
+
+header .option:hover {
+    color: #98a5a5;
+}
+
+
+
+/* main  */
+
+#asunnybeachday{
+    margin: 70px 0 0 20px;
+    box-shadow: 10px 5px 25px black;
+}
+
+#asunnybeachday .row1{
+    text-align: center;
+    padding: 2px 0 ;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #e7676e;
+}
+#asunnybeachday .row1 img{
+    width: 3%;
+    position: relative;
+    top: 20px;
+}
+
+#asunnybeachday .row2{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#asunnybeachday .row2 .col p{
+    border-width:5px ; 
+    border-style:inset; 
+    border-color:black ; 
+    border-radius: 5px; 
+    padding: 15px 200px;
+}
+
+#asunnybeachday .row2 .col span{
+    color: #509bd7;;
+}
+
+#asunnybeachday button{
+    background-color: #509bd7;
+    color: white;
+    padding: 20px ;
+    font-size: 15px;
+    position: relative;
+    left: 84.45%;
+    border: none;
+    
+}
+
+#asunnybeachday .row3{
+ display: flex;
+ justify-content: space-around;
+}
+
+#asunnybeachday .row3 img{
+    padding: 0 3px;
+    width: 25px;
+    position: relative;
+    top: 10px;
+}
+
+#asunnybeachday .row3 p{
+    font-size: 20px;
+}
+
+/* -------------2em section------------ */
+#mapdirections{
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 30px;
+}
+
+#mapdirections .row1{
+    background-color: grey;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+#mapdirections .row1 p{
+    padding-left: 28px;
+}
+
+#mapdirections .row1 span{
+    padding-left: 15px;
+}
+
+h1{
+    text-align: center;
+    color: #d35649;
+}
+
+#mapdirections h1 img{
+    width: 50px;
+    position: relative;
+    top: 20.99px;
+}
+
+figure iframe{
+    width: 100%;
+}
+
+
+/* ------------------------------footer-------------------------------*/
+
+footer{
+    display: block;
+    background-color:black;
+    color: white;
+    padding-top: 20px;
+}
+
+
+
+ .footer-top .container1{
+    display: flex;
+    width: 47.5%;
+    justify-content: space-between;
+    margin: 60px auto;
+    
+}
+
+.container1 .row{
+    display: flex;
+    border-width:5px 0;
+    border-style:inset;
+    border-color:white;
+    height: 50px;
+    font-weight: bolder;
+}
+
+.row a{
+    margin: 15px 13px;
+    text-decoration: none;
+    color: white;
+}
+
+.row-center{
+    border-width:5px;
+    border-style:inset;
+    border-color:white;
+    padding: 10px;
+    border-radius: 100%;
+    margin-top: -25px;
+
+}
+
+.row-center img{
+    width: 73px;
+    height: 80px;
+    margin-bottom: -17%;
+    position: relative;
+    bottom: -5px;
+}
+
+
+.footer-top .container2{
+    display: flex; 
+    justify-content: space-around;
+    text-align: center;
+    font-weight: bold;
+    width: 90%;
+    margin: 0 auto;
+    right: -5%;
+    padding-bottom: 15px;
+    
+}
+
+h2{
+    font-size: 25px;
+}
+
+ p {
+    font-size: 17px;
+}
+
+.container2 form input{
+    padding: 8px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border-width: 1px;
+    border-color: gray;
+}
+
+
+.container2 form .button{
+    font-size: 15px;
+    margin-left: -5px;
+    border-radius: 6px;
+    padding: 15px; 
+    font-weight: bold;
+    background-color: #98a5a5;
+    color: white;
+    border: none;
+}
+
+.container2 a{
+    color: #d35649;
+    text-decoration: none;
+}
+
+
+p.marge{
+    margin-top: -3%;
+}
+
+
+/* footer-bottom */
+
+.footer-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    padding-bottom: 20px;
+    background-color:#1f1f1f;
+}
+
+.footer-bottom .icon-footer img{
+        padding: 20px 25px;
+        width: 19px;
+}
+
+/*------------footer animation-------------- */
+

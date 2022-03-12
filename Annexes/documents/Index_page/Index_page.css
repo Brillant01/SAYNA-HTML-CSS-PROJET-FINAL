@@ -1,0 +1,268 @@
+/* code css general */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 28px; 
+}
+
+/* code css detail */
+
+    /*------------------------------- header---------------------------------- */
+
+header {
+    justify-content: space-between;
+    color: white;
+    background-color: #d35649;
+    display: flex;
+}
+
+header .menu1 {
+    padding: 15px 10px 0;
+}
+
+.headerimg1{
+    width: 70px ;
+}
+
+.menu1 a{
+    font-size: 35px;
+    margin: 0 10px;
+    position: relative;
+    top: -5px;
+    text-decoration: none;
+    color: white;
+}
+
+header .menu2 {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    font-size: smaller;
+    margin: 0 0 0 60px;
+    justify-content: space-between ;
+}
+
+.menu1 .option{
+    padding:  0 25px ;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu2 .option{
+    padding: 0 15px;
+}
+    
+
+.menu2 .option img{
+    padding: 0 5px;
+    position: relative;
+    top: 10px
+}
+
+/* --------------------header animation--------------------------- */
+
+header .option:hover {
+    color: #98a5a5;
+}
+
+
+/*----------------------------------- main ----------------------------- */
+section#search-events{
+    background-color: black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 2px;
+    padding: 50px 11%;
+    text-align: center;
+    color: white;
+}
+
+#search-events .barre-search{
+    background-color: white;
+    width: 40%;
+    padding: 20px 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#search-events figure{
+    width: 200px;
+}
+
+#search-events figure input{
+    width: 700px;
+    
+}
+
+#search-events .button2{
+    margin-top: 3%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#works-in-four-simple{
+    text-align: center;
+}
+
+#works-in-four-simple .container{
+    display: flex;
+}
+
+#works-in-four-simple .row {
+    padding: 3%;
+}
+
+
+#tri-color{
+    color: white;
+}
+
+#tri-color .orange{
+    background-color: #d35649;
+    padding: 1% 0 70px 1%;
+}
+#tri-color .grey{
+    background-color: #98a5a5;
+    padding: 1% 0 70px 1%;
+}
+#tri-color .blue{
+    background-color: #509bd7;
+    padding: 1% 0 70px 1%;
+    
+}
+
+#tri-color img{
+    width: 15%; 
+    border-radius: 100%; 
+    float: right;
+    position: relative;
+    top: -15%;
+}
+
+/* ------------------------------footer-------------------------------*/
+
+footer{
+    display: block;
+    background-color:black;
+    color: white;
+    padding-top: 20px;
+}
+
+
+
+ .footer-top .container1{
+    display: flex;
+    width: 47.5%;
+    justify-content: space-between;
+    margin: 60px auto;
+    
+}
+
+.container1 .row{
+    display: flex;
+    border-width:5px 0;
+    border-style:inset;
+    border-color:white;
+    height: 50px;
+    font-weight: bolder;
+}
+
+.row a{
+    margin: 15px 13px;
+    text-decoration: none;
+    color: white;
+}
+
+.row-center{
+    border-width:5px;
+    border-style:inset;
+    border-color:white;
+    padding: 10px;
+    border-radius: 100%;
+    margin-top: -25px;
+
+}
+
+.row-center img{
+    width: 73px;
+    height: 80px;
+    margin-bottom: -17%;
+    position: relative;
+    bottom: -5px;
+}
+
+
+.footer-top .container2{
+    display: flex; 
+    justify-content: space-around;
+    text-align: center;
+    font-weight: bold;
+    width: 90%;
+    margin: 0 auto;
+    right: -5%;
+    padding-bottom: 15px;
+    
+}
+
+h2{
+    font-size: 25px;
+}
+
+ p {
+    font-size: 17px;
+}
+
+.container2 form input{
+    padding: 8px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border-width: 1px;
+    border-color: gray;
+}
+
+
+.container2 form .button{
+    font-size: 15px;
+    margin-left: -5px;
+    border-radius: 6px;
+    padding: 15px; 
+    font-weight: bold;
+    background-color: #98a5a5;
+    color: white;
+    border: none;
+}
+
+.container2 a{
+    color: #d35649;
+    text-decoration: none;
+}
+
+
+p.marge{
+    margin-top: -3%;
+}
+
+
+/* footer-bottom */
+
+.footer-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    padding-bottom: 20px;
+    background-color:#1f1f1f;
+}
+
+.footer-bottom .icon-footer img{
+        padding: 20px 25px;
+        width: 19px;
+}
+
+/*------------footer animation-------------- */
