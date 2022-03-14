@@ -69,45 +69,86 @@ header .option:hover {
 }
 
 
-/*----------------------------------- main ----------------------------- */
+/*----------------------- main --------------------------- */
+
+/* section id=search-events */
+
 section#search-events{
-    background-color: black;
+    background-image: url(/Dossier_Assiets/Images/group-1.jpg);
     background-size: 100%;
+    background-position: center;
     background-repeat: no-repeat;
-    border: 2px;
-    padding: 50px 11%;
+    padding: 6% 12%;
     text-align: center;
     color: white;
 }
 
+section#search-events h1{
+    text-shadow: 2px 2px black;
+    margin-top: -30px;
+    font-size: 27.8px;
+}
+
 #search-events .barre-search{
-    background-color: white;
-    width: 40%;
-    padding: 20px 300px;
-    text-align: center;
+    background-color: rgb(255, 255, 255, 0.7);
+    border-radius: 5px;
+    color: black;
+    padding: 1%;
+    width: 50%;
     margin: 0 auto;
 }
 
-#search-events figure{
-    width: 200px;
+#search-events .barre-search p{
+   text-align: center;
+    margin-bottom: -5px;
 }
 
-#search-events figure input{
-    width: 700px;
-    
+#search-events form{
+   padding-top: -5%;
 }
 
-#search-events .button2{
+
+#search-events .search{
+    background-color: white;
+    font-size: 15px;
+    width: 87%;
+    padding: 1.3% 0;
+    margin-right: -0.8% ;
+}
+
+
+#search-events .submit{
     margin-top: 3%;
     padding: 15px;
     border: none;
     border-radius: 5px;
     font-weight: bold;
+    font-size: 15px;
+    background-color: #d35649;
+    color: white;
 }
+
+.button2{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin:2%;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255, 0.7);
+}
+
+/*------ section id=works-in-four-simple --------*/
 
 #works-in-four-simple{
     text-align: center;
 }
+
+#works-in-four-simple h1{
+    padding-top: 1%;
+    color:  #d35649;
+    font-size: 25px;
+}
+
 
 #works-in-four-simple .container{
     display: flex;
@@ -118,31 +159,46 @@ section#search-events{
 }
 
 
+/* --------------------section id=tri-color--------- */
+
 #tri-color{
     color: white;
 }
 
 #tri-color .orange{
+    display: flex;
     background-color: #d35649;
-    padding: 1% 0 70px 1%;
+    justify-content: space-between;
+    padding: 1%;  
 }
+
 #tri-color .grey{
+    display: flex;
     background-color: #98a5a5;
-    padding: 1% 0 70px 1%;
+    justify-content: space-between;
+    padding: 1%;  
 }
-#tri-color .blue{
+
+#tri-color .blue {
+    display: flex;
     background-color: #509bd7;
-    padding: 1% 0 70px 1%;
-    
+    justify-content: space-between;
+    padding: 1%;
 }
 
 #tri-color img{
-    width: 15%; 
+    width: 15%;
     border-radius: 100%; 
-    float: right;
-    position: relative;
-    top: -15%;
+    height: 300px;
+   
 }
+
+#tri-color .orange div.border-rad1 {
+    border-radius: 100%;
+    border-color:black;
+    border: 2px;
+}
+
 
 /* ------------------------------footer-------------------------------*/
 
@@ -265,4 +321,26 @@ p.marge{
         width: 19px;
 }
 
-/*------------footer animation-------------- */
+/* ***********************************Responsive********************************* */
+
+@media (max-width: 768px){
+
+    header{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+
+    header div.menu2{
+        position: relative;
+        right: 25%;
+    }
+
+    header div.menu2 span, .footer-top {
+        display: none;
+    }
+
+    .footer-bottom img{
+        padding: 5px -5px;
+    }
+}

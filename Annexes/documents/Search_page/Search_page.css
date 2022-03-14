@@ -70,23 +70,29 @@ header .option:hover {
 
 
 
-/* main */
+/*---------------------- main -------------------------*/
+
+/*---------- 1er section id=formulaire ----------- */
 
 #formulaire{
-    background-color: grey;
+    background-color: #eee;
     padding: 20px 0 50px  300px ;
-    
-}
-
-
-#formulaire div  {
-    display: flex;
-    
+    margin-top: 1.5%;
 }
 
 #formulaire  h1{
     text-align: center;
+    font-size: 40px;
+    color: #98a5a5;
 }
+
+#formulaire div  {
+    display: flex;
+    margin: 0 auto;
+    
+}
+
+
 
 #formulaire div form p{
     font-weight: bold;
@@ -105,30 +111,38 @@ header .option:hover {
 }
 
 .blue{
-    background-color: blue;
-    height: 50px;
+    background-color: #0f85e6;
+    height: 40px;
     font-size: 15px;
     color: white;
     border-radius: 5px ;
     margin: 2px;
     position: relative;
-    top: 30%;
-}
-.yellow{
-    background-color: rgb(70, 70, 9);
-    height: 50px;
-    font-size: 15px;
-    color: white;
-    border-radius: 5px ;
-    margin: 2px;
-    position: relative;
-    top: 30%;
+    top: 40%;
     border: none;
 }
+.yellow{
+    background-color:  rgb(226, 187, 12);
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px ;
+    margin: 2px;
+    position: relative;
+    top: 40%;
+    border: none;
+}
+
+/* ---------section id=figure ------ */
 
 #figure {
     text-align: center;
     padding: 50px;
+    color: #98a5a5;
+}
+
+#figure p{
+    font-size: 35px;
 }
 
 #figure div{
@@ -139,20 +153,24 @@ header .option:hover {
 }
 
 #figure div figure{
-    background-color: red;
-    padding: 1%;
+    padding: 2%  ;
   
 }
 
 #figure div figure img{
-    width: 50%;
+    background-color: #d35649;
+    width: 100%;
+    padding: 5%;
+    
 }
 
 figcaption{
     position: relative;
-    font-size: 15px;
+    font-size: 25px;
+    text-shadow: 2px 0.5px;
+    position: relative;
+    top: -87%;
     color: white;
-
 }
 
 /* ------------------------------footer-------------------------------*/
@@ -276,4 +294,27 @@ p.marge{
         width: 19px;
 }
 
-/*------------footer animation-------------- */
+/* ***********************************Responsive********************************* */
+
+@media (max-width: 768px){
+
+    header{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+
+    header div.menu2{
+        position: relative;
+        right: 25%;
+    }
+
+    header div.menu2 span, .footer-top {
+        display: none;
+    }
+
+    .footer-bottom img{
+        padding: 5px -5px;
+    }
+}
+

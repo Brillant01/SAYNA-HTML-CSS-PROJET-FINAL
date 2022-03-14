@@ -8,23 +8,23 @@
     <link rel="stylesheet" href="Index_page.css">
 </head>
 <body>
-<!-- header de la page -->
+<!---------------------------------- header de la page ---------------------------------->
 <header>
 	<div class="menu1">
-		<img  class="headerimg1" src="/Dossier Assiets/Images/group-2.svg" alt="group-2"><a href="/Annexes/documents/Index_page/Index_page.html"><span>[Events]</a>
+		<img  class="headerimg1" src="/Dossier_Assiets/Images/group-2.svg" alt="group-2"><a href="/Annexes/documents/Index_page/Index_page.html"><span>[Events]</a>
 	</div>
 	<div class="menu2">
 		<div class="option">
-			<p><img  src="/Dossier Assiets/Icones/search_icon.svg" alt="search_icon">Search</p>
+			<p><img  src="/Dossier_Assiets/Icones/search_icon.svg" alt="search_icon">Search</p>
 		</div>
 		<div class="option">
-			<p><img src="/Dossier Assiets/Icones/about_icon.svg" alt="about_icon">About</p>
+			<p><img src="/Dossier_Assiets/Icones/about_icon.svg" alt="about_icon">About</p>
 		</div>
 		<div class="option">
-			<p><img src="/Dossier Assiets/Icones/blog_icon.svg" alt="blog_icon">Blog</p>
+			<p><img src="/Dossier_Assiets/Icones/blog_icon.svg" alt="blog_icon">Blog</p>
 		</div>
 		<div class="option">
-			<p><img src="/Dossier Assiets/Icones/more_icon.svg" alt="more_icon">More</p>
+			<p><img src="/Dossier_Assiets/Icones/more_icon.svg" alt="more_icon">More</p>
 		</div>
 
 	</div>
@@ -32,26 +32,24 @@
 <!------------------------content de la page ------------------------------->
 	<main>
 		<section id="search-events">
-			<p>[EVENTS]... YOUR GATEWAY TO CONNECT WITH EVENTS AROUND YOUR AREA </p>
+			<h1>[EVENTS]... YOUR GATEWAY TO CONNECT WITH EVENTS AROUND YOUR AREA </h1>
 			<div class="barre-search">
 				<p>SEARCH EVENTS NEARBY</p>
-				<figure>
-					<input action="post" type="text">
-					<button>SEARCH</button>
-				</figure>
+				<form> 
+					<input type="text" name="text" class="search" placeholder="Insert your location here">
+					<input type="submit" name="submit" class="submit" value="Search">
+				</form>
 			</div>
 			<button class="button2">How it Works</button>
 		</section>
 
 
-		<section id="works-in-four-simple" style="text-align: center;">
-
+		<section id="works-in-four-simple">
 			<h1>[Events] works in four simple septs.</h1>
-				
 			<div class="container">
 				<div>
 					<div class="row">
-						<img src="/Icones/locate_icon.svg" alt="">
+						<img src="/Dossier_Assiets/Icones/locate_icon.svg" alt="locate_icon">
 						<h2>1-Locate:</h2>
 						<p>It's simple, on [Events] homepage, enter the name of the location
 							you want to spend some good quality time with people and click on
@@ -59,7 +57,7 @@
 						</p>
 					</div>
 					<div class="row">
-						<img src="/Icones/locate_icon.svg" alt="">
+						<img src="/Dossier_Assiets/Icones/go_icon.svg" alt="go_icon">
 						<h2>3-Go!</h2>
 						<p>Select the [Events], wait for the scheduled day and go! Be
 							prepared to meet new people, create new connections and have a
@@ -68,15 +66,16 @@
 				</div>
 				<div>
 					<div class="row">
-						<img src="/Icones/locate_icon.svg" alt="">
+						<img src="/Dossier_Assiets/Icones/confirm_icon.svg" alt="confirm_icon">
 						<h2>2-Confirm or Create:</h2>
 						<p>Go to check the events nearby the location you searched for and
 							apply for any [Events] available. Every [gathering] has a subject,
 							that you can search for too! If no [Events] are available on the
-							location you selected, you can create and share your event.</p>
+							location you selected, you can create and share your event.
+						</p>
 					</div>
 					<div class="row">
-						<img src="/Icones/locate_icon.svg" alt="">
+						<img src="/Dossier_Assiets/Icones/haveagoodtime_icon.svg" alt="haveagoodtime_icon">
 						<h2>4-Have a good Create:</h2>
 						<p>Once you are at the [Events] location, look for the host, enjoy
 							and have fun!</p>
@@ -84,28 +83,35 @@
 				</div>
 			</div>													
 	</section>
-								
+	
+	
 	<section id="tri-color">
 		<div class="orange">
-			<p>[Events] near you</p>
-			<p>Every month a new you might find [Events] near you and enjoy the
+			<div>
+				<h2>[Events] near you</h2><br>
+				<p>Every month a new you might find [Events] near you and enjoy the
 				company with people whom you can share mutual interests</p>
-			<input style="padding: 10px; font-weight: bolder;" type="submit" value="Find a [Events]"> 
-			<img src="/Dossier Assiets/Images/group-2.jpg" alt="group-2">		
+				<input style="padding: 10px; font-weight: bolder;color:#d35649;" type="submit" value="Find a [Events]">
+			</div> 
+			<img src="/Dossier_Assiets/Images/group-2.jpg" alt="group-2">
+				
 		</div>
 		<div class="grey">
-			<h1>[Events] connecting you</h1>
-			<p>You can create [Events] events around your area and share them
-				with people you know and with whoever wants to connect</p>
-			<input style="padding: 10px; font-weight: bolder;" type="submit" value="Find a [Events]"> 
-			<img  src="/Dossier Assiets/Images/group-4.jpg" alt="group-4">		
+			<div>
+				<h2>[Events] connecting you</h2><br>
+				<p>You can create [Events] events around your area and share them
+				with people you know and with whoever wants to connect</p><br>
+				<input style="padding: 10px; font-weight: bolder;color: #98a5a5;" type="submit" value="Learn more about [Events]">
+			</div>
+			<img  src="/Dossier_Assiets/Images/group-4.jpg" alt="group-4">
 		</div>
 		<div class="blue">
-			<h2>[Events] spreding love</h2>
-			<p>You can create [Events] events around your area and share them
-				with people you know and with whoever wants to connect</p>
-			<input style="padding: 10px; font-weight: bolder;" type="submit" value="Find a [Events]"> 
-			<img  src="/Dossier Assiets/Images/group-3.jpg" alt="group-3">
+			<div>
+				<h2>[Events] spreding love</h2><br>
+				<p>You can create [Events] events around your area and share them
+				with people you know and with whoever wants to connect</p><br>
+			</div>
+			<img  src="/Dossier_Assiets/Images/group-3.jpg" alt="group-3">
 		</div>		
 		</section>
 	</main>
@@ -121,7 +127,7 @@
 					 <a href="/Annexes/documents/Index_page/Index_page.html">ADVERTISE</a>
 				 </nav>
 				 <div class="row-center">
-					 <img  src="/Dossier Assiets/Icones/mapsnavbar_icon.svg" alt="mapsnavbar_icon" >
+					 <img  src="/Dossier_Assiets/Icones/mapsnavbar_icon.svg" alt="mapsnavbar_icon" >
 				 </div>
 				 <nav class="row">
 					 <a href="/Annexes/documents/Index_page/Index_page.html">FACEBOOK</a>
@@ -151,15 +157,18 @@
 					 <p class="marge">living in is over <a href="/Annexes/documents/About_page/About.html">learn more.</a> </p>
 				 </div>
 			 </div>
+
 		 </div>    
 		 <div class="footer-bottom">
+
 			 <div class="icon-footer">
-				 <img src="/Dossier Assiets/Icones/facebook_icon.svg" alt="facebook_icon">
-				 <img src="/Dossier Assiets/Icones/twitter_icon.svg" alt="witter_icon">
-				 <img src="/Dossier Assiets/Icones/instagram_icon.svg" alt="instagram_icon">
-				 <img src="/Dossier Assiets/Icones/tumblr_icon.svg" alt="tumblr_icon">
-				 <img src="/Dossier Assiets/Icones/linkedin_icon.svg" alt="linkedin_icon">
+				 <img src="/Dossier_Assiets/Icones/facebook_icon.svg" alt="facebook_icon">
+				 <img src="/Dossier_Assiets/Icones/twitter_icon.svg" alt="witter_icon">
+				 <img src="/Dossier_Assiets/Icones/instagram_icon.svg" alt="instagram_icon">
+				 <img src="/Dossier_Assiets/Icones/tumblr_icon.svg" alt="tumblr_icon">
+				 <img src="/Dossier_Assiets/Icones/linkedin_icon.svg" alt="linkedin_icon">
 			 </div>
+
 			 <div>
 				 <p>&copy2020 [Events], Inc. All rights reserved</p>
 			 </div>
