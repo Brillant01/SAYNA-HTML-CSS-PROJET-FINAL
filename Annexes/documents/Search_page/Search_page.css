@@ -309,12 +309,49 @@ p.marge{
         right: 25%;
     }
 
-    header div.menu2 span, .footer-top {
+    header div.menu2 span, .footer-top{
         display: none;
+    }
+
+
+    /* ---------------------------main----------------------- */
+    
+    /*------------------ section figure---------------- */
+
+    section#figure p.titre {
+        display: none;
+    }
+
+    section#figure .image{
+        display: block;
+    }
+
+    section#formulaire h1{
+        font-size: 30px;
+        margin: 20px -100px;
+        padding-bottom: 10%;
+        position: relative;
+        left: -38%;
+    }
+
+    section#formulaire div.container{
+        display: block;
+        text-align: center;
+        margin-left: -90%;
+    }
+
+    section#formulaire div.container div.Loca-host {
+        display: block;
+    } 
+
+    section#formulaire div.container .sub-init{
+        text-align: center;
     }
 
     .footer-bottom img{
         padding: 5px -5px;
     }
+
+    
 }
 

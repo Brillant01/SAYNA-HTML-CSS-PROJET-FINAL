@@ -325,22 +325,187 @@ p.marge{
 
 @media (max-width: 768px){
 
+/* ---------Header-------- */
     header{
         display: inline-block;
         width: 100%;
         text-align: center;
     }
 
-    header div.menu2{
-        position: relative;
-        right: 25%;
+    .headerimg1{
+         width: 20%;   
     }
 
-    header div.menu2 span, .footer-top {
+    header .menu1 span{
+        position: relative;
+        top: -20px;
+        text-shadow: 2px 2px #509bd7;
+        
+    }
+
+    header div.menu2{
+        position: relative;
+        right: 30%;
+    }
+
+    header div.menu2 .option{
+        padding: 0 10px;
+    }
+
+
+    header div.menu2 span {
         display: none;
     }
 
+    header div.menu2 img{
+        width: 35px;
+    }
+
+/* ---------------- main ------------------------ */
+    /* ---------1er section ------------- */
+    
+
+    #search-events .search{
+        padding: 5% 0;
+        margin-top: 20%;
+    }
+
+
+    #search-events .submit{
+        padding: 3% 30%;
+        font-size: 20px;
+        margin: -1px 0 10px ;
+    }
+
+    /* ----------------2em section ----------- */
+#works-in-four-simple{
+    display: none;
+}
+
+    /* ----------------3em section----------------- */
+
+    /* section tri-color-Orange */
+
+    #tri-color .orange h2 {
+        margin: 0;
+        font-size: 20px;
+        position: relative;
+        top: 66%;
+    }
+
+    #tri-color .orange div{
+        width: 40%;
+        margin: 5% -50% 10% 0;
+        position: relative;
+        left: 30%;
+    }
+
+    #tri-color .orange div p{
+        font-size: 120%;
+    }
+
+    #tri-color .orange div input{
+        border: none;
+        background-color: rgba(0, 0, 0, 0.15);
+        font-size: 19px;
+        position: relative;
+        left: -3%;
+    }
+
+
+    #tri-color .orange img{
+        border-radius: 20px ; 
+        width: 90%;
+        margin: 5%;
+    }
+
+
+
+    #tri-color .orange h2 {
+        margin: 0;
+        font-size: 20px;
+        position: relative;
+        top: 66%;
+    }
+
+/* section tri-color-grey */
+
+    #tri-color .grey div{
+        width: 40%;
+        margin: 5% -50% 10% 0;
+        position: relative;
+        left: 30%;
+    }
+
+    #tri-color .grey div p{
+        font-size: 120%;
+    }
+
+    #tri-color .grey div input{
+        border: none;
+        background-color: rgba(0, 0, 0, 0.15);
+        font-size: 18px;
+        position: relative;
+        left: -3%;
+    }
+
+
+    #tri-color .grey img{
+        border-radius: 20px ; 
+        width: 90%;
+        margin: 5%;
+    }
+
+
+    #tri-color .grey h2 {
+        margin: 0;
+        font-size: 18px;
+        position: relative;
+        top: 73%;
+    }
+
+
+  /* section tri-color-blue */  
+
+    #tri-color .blue div{
+        width: 40%;
+        margin: 5% -50% 10% 0;
+        position: relative;
+        left: 30%;
+    }
+
+    #tri-color .blue div p{
+        font-size: 120%;
+    }
+
+    #tri-color .grey div input{
+        border: none;
+        background-color: rgba(0, 0, 0, 0.15);
+        font-size: 18px;
+        position: relative;
+        left: -3%;
+    }
+
+
+    #tri-color .blue img{
+        border-radius: 20px ; 
+        width: 90%;
+        margin: 5%;
+    }
+
+
+    #tri-color .blue h2 {
+        margin: 0;
+        font-size: 18px;
+        position: relative;
+        top: 73%;
+    }
+
+    .footer-top{
+        display: none;
+    }
+    
     .footer-bottom img{
-        padding: 5px -5px;
+        width: 0px;
     }
 }

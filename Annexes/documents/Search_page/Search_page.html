@@ -32,44 +32,52 @@
 <!---------------------- contenant de la page ------------------------->
 		<main>
 			<section id="formulaire">
-				<h1>Filter by location, host, subject, date, daytime,:</h1>
-				<div>
-					<div>
-						<form>
-							<p>Location</p>
-							<input action="post" type="text">
-						</form>
-						<form>
-							<p>Host</p>
-							<input action="post" type="text">
-						</form>
-						<form>
-							<p>Subject</p>
-							<input action="post" type="text">
-						</form>
-						<form>
-							<p>Initial Date</p>
-							<input action="post" type="date">
-						</form>
-						<form>
-							<p>Final Date</p>
-							<input action="post" type="date">
-						</form>
-						<form>
-							<p>Daytime</p>
-							<input action="post" type="text">
-						</form>
-						<div>
-						<button class="blue">Search</button>
-						<button class="yellow">Clear Filter</button>
+				<h1>Filter by location, host, subject, date, daytime:</h1>
+				<div class="container">
+					
+						<div class="Loca-host">
+							<form>
+								<p>Location</p>
+								<input action="post" type="text">
+							</form>
+							<form>
+								<p>Host</p>
+								<input action="post" type="text">
+							</form>
 						</div>
-					</div>
+
+						<div class="sub-init">
+							<form>
+								<p>Subject</p>
+								<input action="post" type="text">
+							</form>
+							<form>
+								<p>Initial Date</p>
+								<input action="post" type="date">
+							</form>
+						</div>
+
+						<div class="final-day">
+							<form>
+								<p>Final Date</p>
+								<input action="post" type="date">
+							</form>
+							<form>
+								<p>Daytime</p>
+								<input action="post" type="text">
+							</form>
+							<div>
+							<button class="blue">Search</button>
+							<button class="yellow">Clear Filter</button>
+							</div>
+						</div>
+					
 				</div>
 			</section>
 
 			<section id="figure">
-				<p>Search Result Found 7 [Events] Nearby.</p>
-				<div>
+				<p class="titre">Search Result Found 7 [Events] Nearby.</p>
+				<div class="image">
 					<figure>
 						<img src="/Dossier_Assiets/Images/group-2.svg" alt="group-2">
 						<figcaption>go to [gathering] example</figcaption>
